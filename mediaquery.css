@@ -1,0 +1,306 @@
+@media (max-width: 790px) {
+    nav{
+        display: block;
+    }
+    .des-nav{
+        display: none;
+    }
+    nav .nav-bar .sidebarOpen{
+        display: block;
+    }
+  
+    .menu{
+        position: fixed;
+        height: 100%;
+        width: 320px;
+        left: -100%;
+        top: 0;
+        padding: 20px;
+        background-color: #010718;
+        z-index: 100;
+        transition: all 0.4s ease;
+    }
+  
+    nav.active .menu{
+        left: -0%;
+    }
+  
+    nav.active .nav-bar .navLogo a{
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+  
+    .menu .logo-toggle{
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  
+    .logo-toggle .siderbarClose{
+        color: #FFF;
+        font-size: 24px;
+        cursor: pointer;
+    }
+  
+    .nav-bar .nav-links{
+        flex-direction: column;
+        padding-top: 5px;
+    }
+  
+    .nav-links li a{
+        display: block;
+        margin-top: 5px;
+    }
+  }
+  @media screen and (max-width: 790px) {
+    .stick{
+        width: 60px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 10;
+    }
+    .hero{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+        margin-top: 5vh;
+    } 
+    .hero-left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .hero-head img{
+        width: 50px;
+    }
+    .hero-head p{
+        font-size: 20px !important;
+    }
+    .hero-right img{
+        width: 400px;
+        margin-top: 5vh;
+        margin-left: -30px;
+    } 
+    .sec1{
+        margin-top: 0;
+    }
+    .sec1-head h2{
+        width: 90%;
+        font-size: 28px;
+    }
+    .sec1-cards{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px; 
+    }
+    .card{
+        width: 100%;
+        height: 250px;
+    }
+    .card h4{
+        color: #2330a1;
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .card p{
+        font-size: 13px;
+    }
+    .sec2{
+        margin-top: 10vh;
+    }
+    .sec2 h5{
+        color: #51557d;
+        font-size: 18px;
+        margin-top: 0px;
+        margin-left: 20px;
+      }
+      .sec2-head{
+        flex-direction: column;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;  
+        height: 90px;
+      }
+      .sec2-head-text{
+        flex-direction: column;
+        align-items: start;
+        gap: 0px;
+      }
+      .sec2-head-text h1{
+        color: #2330a1;
+        font-size: 35px;
+      }
+      .sec2-head-text a{
+        color: #e35954;
+        font-size: 13px;
+        margin-top: 1px;
+      }
+      .des-converse{
+        display: none;
+      }
+      .mob-converse{
+        display: flex;
+        margin-left: 20px;
+        margin-top: 10px;
+      }
+      .sec2-cards{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        margin: auto;
+        margin-top: 8vh;
+    }
+    .sec3{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .sec3-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px; 
+    }
+    .sec3-cards img{
+        width: 130px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.452);  
+    }
+    .sec3-temps hr{
+        width: 130px;
+        margin: auto;
+    }
+    .sec3 h1{
+        margin-left: 20px;
+        width: 60%;
+        line-height: 1.2;
+        font-size: 35px;
+    }
+    .sec4{
+        width: 90%;
+        margin: auto;
+        margin-top: 10vh;
+    }
+    .sec4-cards{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin: auto; 
+        margin-top: 5vh;
+        text-align: center;  
+    }
+    .sec4-temps p{
+        color: #1b1f4a;
+        font-weight: 700;
+        font-size: 14px;
+        width: 100%;
+    }
+    .sec5{
+        margin-top: 5vh;
+    }
+    .section-title h2 {
+        width: 70%;
+        margin-left: 30px;
+    }
+    
+    .testimonials-text-before{
+        margin-left: -300px;
+    }
+    .sec7{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+      }
+      .sec7-left img{
+        width: 400px;
+      }
+      .sec8{
+        width: 100%;
+        padding: 20px;
+      }
+      .sec8-head{
+        margin-left: 20px;
+      }
+      .sec8-cards{
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .sec8-temps{
+        width: 340px;
+      }
+      .sec8-top img{
+        width: 300px;
+        height: 180px;
+      }
+      .sec8-top h2{
+        font-size: 10px;
+      }
+      .mob{
+        display: block;
+      }
+      .des{
+        display: none;
+      }
+      .sec9 a img{
+        width: 50px;
+      }
+      .sec9{
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 20vh;
+        text-align: end;
+        
+      }
+      .sec9-wrapper{
+        width: 100%;
+        padding: 10px 5px;
+        border-radius: 50px;
+      }
+      .sec9-wrapper h1{
+        width: 90%;
+        font-size: 28px;
+        margin-top: 20px;
+      }
+      .sec9-btn{
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+      }
+      .sec9-btn input{
+        margin-top: 30px;
+        width: 350px;
+      }
+      .sec9-btn button{
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      .footer-top{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+      }
+      .footer-bottom p{
+        color: #7479a6;
+        font-size: 8px;
+      }
+      .footer-bottom p img{
+        width: 8px;  
+      }
+      .socials{
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .socials i{
+        font-size: 15px;
+      }
+}

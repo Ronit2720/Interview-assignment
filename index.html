@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="main"> 
+        <img class="stick" src="Assets/stcick.png" alt=""> 
+        <div id="nav" class="navbar des-nav">
+            <div class="sub-items">
+                <div class="sub-left">
+                    <ul class="list1">
+                        <li>Language</li>
+                        <li>Cooking</li>
+                        <li>Music</li>
+                        <li>Arts & Craft</li>
+                        <li>Yoga</li>
+                        <li>Academic</li>
+                        <li>Back to Roots</li>
+                        <li>Funtresting</li>
+                    </ul>
+                    <ul>
+                        <li>All</li>
+                        <li>Indian</li>
+                        <li>Norwegian</li>
+                        <li>Category 04</li>
+                    </ul>
+                </div>
+                <div class="sub-right">
+                    <img src="Assets/Picture2.png" alt="">
+                </div>
+            </div>
+            <div class="nav">
+            <div class="nav-item1">
+                <h1>LOGO</h1>
+                <h2 onclick="">CATEGORIES <i class="fa-solid fa-chevron-down"></i> </h2>
+                
+            </div>
+            <div class="nav-item2">
+                <h2>TEACH</h2>
+                <h1 style="font-weight: 300;">|</h1>
+                <div class="nav-btn">
+                    <button>LOGIN</button>
+                    <button>SIGNUP</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <nav class="mob-nav">
+            <div class="nav-bar">
+                <i class='bx bx-menu sidebarOpen' ></i>
+                <span class="logo navLogo"><a href="#">LOGO</a></span>
+    
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <span class="logo"><a href="#">Category</a></span>
+                        <i class='bx bx-x siderbarClose'></i>
+                    </div>
+    
+                    <ul class="nav-links">
+                            <li><a href="">Language</a></li>
+                            <li><a href="">Cooking</a></li>
+                            <li><a href="">Music</a></li>
+                            <li><a href="">Arts & Craft</a></li>
+                            <li><a href="">Yoga</a></li>
+                            <li><a href="">Academic</a></li>
+                            <li><a href="">Back to Roots</a></li>
+                            <li><a href="">Funtresting</a></li>
+                    </ul>
+                    <ul class="nav-links">
+                        <li><a href="">All</a></li>
+                        <li><a href="">Indian</a></li>
+                        <li><a href="">Norwegian</a></li>
+                        <li><a href="">Category 04</a></li>
+                    </ul>
+                </div>
+                <div class="navbtn">
+                        <button>LOGIN/SIGNUP</button>
+                    </div>
+            </div>   
+        </nav>
+        <div id="hero" class="hero">
+            <div class="hero-left">
+                <div class="hero-head"> 
+                    <p>Hobbies</p>
+                    <img src="Assets/heart1.png" alt="">
+                    <p>Happiness</p>
+                    <img src="Assets/heart2.png" alt="">
+                    <p>Home</p>
+                </div>
+                <p>A Nordic startup which brings incredibly interesting hobbies from around the world to people of all ages.</p>
+                <div class="hero-search">
+                    <input type="email" placeholder="Enter your email">
+                    <button>START EXPLORING <img src="Assets/arrow.png" alt=""></button>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="Assets/Picture1.png" alt="">
+            </div>
+        </div>
+        <div class="sec1">
+            <div class="sec1-head">
+                <img src="Assets/deco1.png" alt="">
+                <h2>Explore. Enroll. Have Fun. Repeat - 
+                    here hobby meets happiness</h2>
+            </div>
+            <div class="sec1-cards">
+                <div class="card">
+                    <img src="Assets/card1.png" alt="">
+                    <h4>Learn something new</h4>
+                    <p>Explore your passion and go beyond the physical and mental boundaries of time, age, gender or geography.</p>
+                </div>
+                <div class="card">
+                    <img src="Assets/card2.png" alt="">
+                    <h4>Skilled & Passionate Teachers</h4>
+                    <p>We offers Interactive classes by experts who are qualified and trusted.</p>
+                </div>
+                <div class="card">
+                    <img src="Assets/card3.png" alt="">
+                    <h4>Take classes anytime, anywhere</h4>
+                    <p>Join sessions at your own convenience and pace, from the comforts of your home.</p>
+                </div>
+                <div class="card">
+                    <img src="Assets/card4.png" alt="">
+                    <h4>Pay as you go</h4>
+                    <p>No enrollment fee for our classes. You only pay for the classes that you take. Your payment is Safe and secure with us.</p>
+                </div>
+            </div>
+        </div>
+        <div class="sec2">
+            <div class="sec2-head">
+              <div class="sec2-head-text">
+                <h1>Discover Classes</h1>
+                <a href="">SHOW ALL</a>
+              </div>
+              <div class="conversion des-converse">
+                <p>Show price in: </p>
+                <div class="currency-buttons">
+                  <button class="btn1" onclick="changeCurrency('INR')">INR</button>
+                  <button class="btn2" onclick="changeCurrency('USD')">USD</button>
+                </div>
+              </div>
+            </div>  
+            <h5>Choose from a variety of classes from around the world.</h5>
+            <div class="conversion mob-converse">
+                <p>Show price in: </p>
+                <div class="currency-buttons">
+                  <button class="btn1" onclick="changeCurrency('INR')">INR</button>
+                  <button class="btn2" onclick="changeCurrency('USD')">USD</button>
+                </div>
+              </div>
+            <div class="sec2-cards">
+              <div class="sec2-temps">
+                  <img src="Assets/CLASS.png" alt="Card Image">
+                  <div class="discount-badge">60% Off</div>
+                  <div class="icon-div">
+                      <i class="save-icon fa-sharp fa-regular fa-bookmark" style="color: #FFD43B;" onclick="toggleSaveIcon(this)"></i>
+                  </div>
+                  <div class="text-content">
+                      <h2>LANGUAGE</h2>
+                      <h3>Class name - Lorem ipsum sit elit varsit lectusi sit amet</h3>
+                      <div class="text-content-inside">
+                        <h6>by<span> John Doe</span></h6>
+                        <img src="Assets/star.png" alt="">
+                        <p>4.7</p>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et nisl ac ex commodo auctor.</p>
+                  </div>
+                  <button class="price-button">$50 <span>..............................................</span>Enroll Now</button>
+              </div>
+              <div class="sec2-temps">
+                  <img src="Assets/CLASS.png" alt="Card Image">
+                  <div class="discount-badge">60% Off</div>
+                  <div class="icon-div">
+                      <i class="save-icon fa-sharp fa-regular fa-bookmark" style="color: #FFD43B;" onclick="toggleSaveIcon(this)"></i>
+                  </div>
+                  <div class="text-content">
+                      <h2>LANGUAGE</h2>
+                      <h3>Class name - Lorem ipsum sit elit varsit lectusi sit amet</h3>
+                      <div class="text-content-inside">
+                        <h6>by<span> John Doe</span></h6>
+                        <img src="Assets/star.png" alt="">
+                        <p>4.7</p>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et nisl ac ex commodo auctor.</p>
+                  </div>
+                  <button class="price-button">$60 <span>..............................................</span>Enroll Now</button>
+              </div>
+              <div class="sec2-temps">
+                  <img src="Assets/CLASS.png" alt="Card Image">
+                  <div class="discount-badge">60% Off</div>
+                  <div class="icon-div">
+                      <i class="save-icon fa-sharp fa-regular fa-bookmark" style="color: #FFD43B;" onclick="toggleSaveIcon(this)"></i>
+                  </div>
+                  <div class="text-content">
+                      <h2>LANGUAGE</h2>
+                      <h3>Class name - Lorem ipsum sit elit varsit lectusi sit amet</h3>
+                      <div class="text-content-inside">
+                        <h6>by<span> John Doe</span></h6>
+                        <img src="Assets/star.png" alt="">
+                        <p>4.7</p>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et nisl ac ex commodo auctor.</p>
+                  </div>
+                  <button class="price-button">$70 <span>..............................................</span>Enroll Now</button>
+              </div>
+              <div class="sec2-temps">
+                  <img src="Assets/CLASS.png" alt="Card Image">
+                  <div class="discount-badge">60% Off</div>
+                  <div class="icon-div">
+                      <i class="save-icon fa-sharp fa-regular fa-bookmark" style="color: #FFD43B;" onclick="toggleSaveIcon(this)"></i>
+                  </div>
+                  <div class="text-content">
+                      <h2>LANGUAGE</h2>
+                      <h3>Class name - Lorem ipsum sit elit varsit lectusi sit amet</h3>
+                      <div class="text-content-inside">
+                        <h6>by<span> John Doe</span></h6>
+                        <img src="Assets/star.png" alt="">
+                        <p>4.7</p>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et nisl ac ex commodo auctor.</p>
+                  </div>
+                  <button class="price-button">$80 <span>..............................................</span>Enroll Now</button>
+              </div>
+              
+            </div> 
+        </div>
+        <div class="sec3">
+            <div class="sec3-head">
+                <h1>Browse by category</h1>
+                <div class="sec3-cards">
+                    <div class="sec3-temps">
+                        <img src="Assets/cat1.png" alt="">
+                        <h3>Language</h3>
+                        <hr>
+                    </div>
+                    <div class="sec3-temps">
+                        <img src="Assets/cat2.png" alt="">
+                        <h3>Cooking</h3>
+                        <hr>
+                    </div>
+                    <div class="sec3-temps">
+                        <img src="Assets/cat3.png" alt="">
+                        <h3>Music</h3>
+                        <hr>
+                    </div>
+                    <div class="sec3-temps">
+                        <img src="Assets/cat4.png" alt="">
+                        <h3>Arts & Craft</h3>
+                        <hr>
+                    </div>
+                    <div class="sec3-temps">
+                        <img src="Assets/cat5.png" alt="">
+                        <h3>Yoga</h3>
+                        <hr>
+                    </div>
+                    <div class="sec3-temps">
+                        <img src="Assets/cat6.png" alt="">
+                        <h3>Academics</h3>
+                        <hr>
+                    </div>
+                    <div class="sec3-temps">
+                        <img src="Assets/cat7.png" alt="">
+                        <h3>Back to Roots</h3>
+                        <hr>
+                    </div>
+                    <div class="sec3-temps">
+                        <img src="Assets/cat8.png" alt="">
+                        <h3>Funtresting</h3>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sec4">
+            <h1>Six reasons to choose our class</h1>
+            <div class="sec4-cards">
+                <div class="sec4-temps">
+                    <img src="Assets/res1.png" alt="">
+                    <p>Interactive live online classes at your convenient time slots</p>
+                </div>
+                <div class="sec4-temps">
+                    <img src="Assets/res2.png" alt="">
+                    <p>Learning from passionate, talented and trusted teachers</p>
+                </div>
+                <div class="sec4-temps">
+                    <img src="Assets/res3.png" alt="">
+                    <p>Cross country sharing of interesting and unique hobbies from across the world</p>
+                </div>
+                <div class="sec4-temps">
+                    <img src="Assets/res4.png" alt="">
+                    <p>Age no bar for enroling into your cherished hobby or activity classes</p>
+                </div>
+                <div class="sec4-temps">
+                    <img src="Assets/res5.png" alt="">
+                    <p>Transparent and structured fee payment options</p>
+                </div>
+                <div class="sec4-temps">
+                    <img src="Assets/res6.png" alt="">
+                    <p>Contributing to the revival and nurturing of traditional art forms</p>
+                </div>
+            </div>
+        </div>
+        <div class="sec5">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Love from community</h2>
+                </div>
+            </div>
+            <div class="testimonials-carousel-wrap">
+                <div class="testimonials-carousel">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testi-item">
+                                    <div class="testimonials-text">
+                                        <div class="testimonials-text-before"><i class="fa-solid fa-quote-left"></i></div>
+                                        <div class="testi-avatar"><img src="Assets/face1.png"></div>
+                                        <div class="testimonials-avatar">
+                                            <h3>Karandeep</h3>
+                                        </div>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        
+                            <div class="swiper-slide">
+                                <div class="testi-item">
+                                    <div class="testimonials-text">                                
+                                        <div class="testimonials-text-before"><i class="fa-solid fa-quote-left"></i></div>
+                                        <div class="testi-avatar"><img src="Assets/face2.png"></div>
+                                        <div class="testimonials-avatar">
+                                            <h3>Kalpana</h3>
+                                        </div>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+        
+                            <div class="swiper-slide">
+                                <div class="testi-item">
+                                    <div class="testimonials-text">
+                                        <div class="testimonials-text-before"><i class="fa-solid fa-quote-left"></i></div>
+                                        <div class="testi-avatar"><img src="Assets/face3.png"></div>
+                                        <div class="testimonials-avatar">
+                                            <h3>Kriti</h3>
+                                        </div>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                          
+                            <div class="swiper-slide">
+                                <div class="testi-item">
+                                    <div class="testimonials-text">
+                                        <div class="testimonials-text-before"><i class="fa-solid fa-quote-left"></i></div>
+                                        <div class="testi-avatar"><img src="Assets/face2.png"></div>
+                                        <div class="testimonials-avatar">
+                                            <h3>Kiran</h3>
+                                        </div>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="tc-pagination"></div>
+            </div>
+        </div>
+        <div class="sec6">
+            <div class="heading">
+                <h1>Meet our teachers</h1>
+            </div>
+            <div class="slider-container">
+                <div class="arrow arrow-left">
+                    <i class="fa-regular fa-square-caret-left fa-2xl"></i>
+                </div>
+                <div class="arrow arrow-right">
+                    <i class="fa-regular fa-square-caret-right fa-2xl"></i>
+            </div>
+            <div class="card-slider">
+                <div class="cards-wrapper">
+                    <div class="sec6-card">
+                        <img src="Assets/teacher1.png" alt="Card Image">
+                        <div class="card-details">
+                            <div class="card-name">Karandeep</div>
+                            <div class="card-designation">Yoga</div>
+                        </div>
+                    </div>
+                    <div class="sec6-card">
+                        <img src="Assets/teacher2.png" alt="Card Image">
+                        <div class="card-details">
+                            <div class="card-name">Karandeep</div>
+                            <div class="card-designation">Yoga</div>
+                        </div>
+                    </div>
+                    <div class="sec6-card">
+                        <img src="Assets/teacher3.png" alt="Card Image">
+                        <div class="card-details">
+                            <div class="card-name">Karandeep</div>
+                            <div class="card-designation">Yoga</div>
+                        </div>
+                    </div>
+                    <div class="sec6-card">
+                        <img src="Assets/teacher1.png" alt="Card Image">
+                        <div class="card-details">
+                            <div class="card-name">Karandeep</div>
+                            <div class="card-designation">Yoga</div>
+                        </div>
+                    </div>
+                    <div class="sec6-card">
+                        <img src="Assets/teacher2.png" alt="Card Image">
+                        <div class="card-details">
+                            <div class="card-name">Karandeep</div>
+                            <div class="card-designation">Yoga</div>
+                        </div>
+                    </div>
+                    <div class="sec6-card">
+                        <img src="Assets/teacher3.png" alt="Card Image">
+                        <div class="card-details">
+                            <div class="card-name">Karandeep</div>
+                            <div class="card-designation">Yoga</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="sec7">
+            <div class="sec7-left">
+                <img src="Assets/teacher.png" alt="">
+            </div>
+            <div class="sec7-right">
+                <h1>Become a certified teacher</h1>
+                <p>We only have the best and trusted teachers from the globe. Join us if you have the skill and passion to share it.</p>
+                <ul>
+                    <li>Make your own schedule</li>
+                    <li>Teach students on an international platform</li>
+                    <li>Become part of an international community of passionate educators</li>
+                </ul>
+                <button>START EXPLORING <img src="Assets/arrow.png" alt=""></button>
+            </div>
+        </div>
+        <div class="sec8">
+            <div class="sec8-head">
+                <h1>Our Blog</h1>
+                <a href="">SHOW ALL</a>
+            </div>
+            <div class="sec8-cards">
+                <div class="sec8-temps">
+                    <div class="sec8-top">
+                        <h2>Category 01</h2>
+                        <img src="Assets/blog1.png" alt="">
+                    </div>
+                    <div class="sec8-mid">
+                        <h2>Blog name - Lorem ipsum dolor sit amet, et varius et consectetur</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur vinit varius adipiscing elit. Ullamcorper lectus turpis amet varius volutpat sed...</p>
+                    </div>
+                    <hr>
+                    <div class="sec8-bottom">
+                        <h3>Publisher name</h3>
+                        <p><i class="fa-regular fa-comment" style="color: #000000;"></i> 0</p>
+                    </div>
+                </div>
+                <div class="sec8-temps">
+                    <div class="sec8-top">
+                        <h2>Category 01</h2>
+                        <img src="Assets/blog1.png" alt="">
+                    </div>
+                    <div class="sec8-mid">
+                        <h2>Blog name - Lorem ipsum dolor sit amet, et varius et consectetur</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur vinit varius adipiscing elit. Ullamcorper lectus turpis amet varius volutpat sed...</p>
+                    </div>
+                    <hr>
+                    <div class="sec8-bottom">
+                        <h3>Publisher name</h3>
+                        <p><i class="fa-regular fa-comment" style="color: #000000;"></i> 12</p>
+                    </div>
+                </div>
+                <div class="sec8-temps">
+                    <div class="sec8-top">
+                        <h2>Category 01</h2>
+                        <img src="Assets/blog1.png" alt="">
+                    </div>
+                    <div class="sec8-mid">
+                        <h2>Blog name - Lorem ipsum dolor sit amet, et varius et consectetur</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur vinit varius adipiscing elit. Ullamcorper lectus turpis amet varius volutpat sed...</p>
+                    </div>
+                    <hr>
+                    <div class="sec8-bottom">
+                        <h3>Publisher name</h3>
+                        <p><i class="fa-regular fa-comment" style="color: #000000;"></i> 0</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="sec9">
+            <div class="sec9-wrapper">
+                <h1>Start learning new skills today and pursue your passion </h1>
+                <p>Join the community of global learners and start exploring today.</p>
+                <div class="sec9-btn">
+                    <input type="email" placeholder="Enter your email">
+                    <button>GET STARTED <img src="Assets/arrow2.png" alt=""></button>
+                </div>
+            </div>
+            <a class="des" href="#nav"><img src="Assets/up.png" alt=""></a>
+            <a class="mob" href="#hero"><img src="Assets/up.png" alt=""></a>
+        </div>
+        <div class="footer">
+            <div class="footer-wrapper">
+                <div class="footer-top">
+                    <div class="col1 col">
+                        <h2>Class Categories</h2>
+                        <ul>
+                            <li>Language</li>
+                            <li>Cooking</li>
+                            <li>Music</li>
+                            <li>Arts & Craft</li>
+                            <li>Yoga</li>
+                            <li>Academic</li>
+                            <li>Back to Roots</li>
+                            <li>Funtresting</li>
+                        </ul>
+                    </div>
+                    <div class="col2 col">
+                        <h2>Company</h2>
+                        <ul>
+                            <li>About</li>
+                            <li>Careers</li>
+                            <li>Blog</li>
+                            <li>Contact</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms & Condition</li>
+                            <li>Refund Policy</li>
+                        </ul>
+                    </div>
+                    <div class="col3 col">
+                        <h2>Learn</h2>
+                        <p>All Classes</p>
+                    </div>
+                    <div class="col4 col">
+                        <h2>Teach</h2>
+                        <p>Becom a Teacher</p>
+                    </div>
+                    <img class="des" src="Assets/footer.png" alt="">
+                </div>
+                <img class="mob" src="Assets/footer.png" alt="">
+                <hr>
+                <div class="footer-bottom">
+                    <p><span> <img src="Assets/copy.png" alt=""></span> Project 2021. All rights reserved.</p>
+                    <p>Made with <span><img src="Assets/heart3.png" alt=""></span> by SimplePlan</p>
+                    <div class="socials">
+                        <i class="fa-brands fa-square-facebook" style="color: #7479a6;"></i>
+                        <i class="fa-brands fa-square-instagram" style="color: #7479a6;"></i>
+                        <i class="fa-brands fa-linkedin" style="color: #7479a6;"></i>
+                        <i class="fa-brands fa-twitter" style="color: #7479a6;"></i> 
+                        <i class="fa-brands fa-youtube" style="color: #7479a6;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
