@@ -16,7 +16,6 @@ body.addEventListener("click" , e =>{
 });
 
 
-document.addEventListener("DOMContentLoaded", function() {
     const categoryHeader = document.querySelector('.nav-item1 h2');
 
     categoryHeader.addEventListener("click", function() {
@@ -29,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const navDiv = document.querySelector('.navbar');
         navDiv.style.backgroundColor = currentDisplay === 'none' ? '#e9efff':'#ffffff'; 
     });
-});
+
 
 function toggleSaveIcon(icon) {
     icon.classList.toggle('fa-regular');
@@ -46,7 +45,7 @@ function toggleSaveIcon(icon) {
     priceButtons.forEach(function(button) {
       let currentPrice = parseInt(button.innerText.replace(/[^\d.]/g, ''));
       let convertedPrice;
-  
+        
       if (currency === 'INR') {
           convertedPrice = currentPrice * exchangeRate;
           button.innerText = 'INR ' + convertedPrice + ' Enroll Now';
@@ -56,17 +55,15 @@ function toggleSaveIcon(icon) {
       }
   });
     
-    
-    btn1.classList.remove('active');
-    btn2.classList.remove('active');
-    
-   
     if (currency === 'INR') {
         btn1.classList.add('active');
+        btn2.classList.remove('active');
     } else if (currency === 'USD') {
         btn2.classList.add('active');
+        btn1.classList.remove('active');
     }
   }
+  changeCurrency('USD');
   
   
 function initParadoxWay() {
@@ -151,3 +148,8 @@ function updateSlider() {
     }
 }
 updateSlider();
+
+
+
+
+
